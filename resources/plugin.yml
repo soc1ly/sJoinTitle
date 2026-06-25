@@ -1,0 +1,11 @@
+name: sJoinTitle
+version: '${project.version}'
+main: ceo.soc1ly.sjointitle.SJoinTitle
+api-version: '1.21'
+commands:
+  sjt:
+    permission: 'sjt.reload'
+    usage: '/sjt reload'
+    description: 'reload plugin configuration'
+    aliases:
+      - sjointitle
